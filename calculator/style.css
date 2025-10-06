@@ -21,7 +21,7 @@
 
     .buttons {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 2px;
       background: #ccc;
     }
@@ -39,6 +39,14 @@
       background: #e2e2e2;
     }
 
+       .specialOperator {
+      background: rgb(255, 102, 0);
+      color: white;
+    }
+    .specialOperator:hover {
+      background: rgb(240, 90, 2)
+    }
+     
     .operator {
       background: #ffb84d;
       color: #fff;
@@ -51,8 +59,9 @@
     .equal {
       background: #4CAF50;
       color: #fff;
-      grid-column: span 2;
     }
+
+  
 
     .equal:hover {
       background: #45a049;
@@ -65,6 +74,12 @@
 
     .clear:hover {
       background: #da190b;
+    }
+    #back {
+        background: rgb(183, 176, 176);
+    }
+    #back:hover {
+        background: rgb(190, 186, 186);
     }
 .display {
   background: #242424;
